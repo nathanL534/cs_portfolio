@@ -1,0 +1,1 @@
+This is a artificial neuron that is able to seperate different colored dots with a line. The perceptron takes input that is essentially a bunch of points that have an assigned color. Based on the color the neuron has weight that slowly adjust the weights to ensure that when it reads the data it is being correctly outputted. 
