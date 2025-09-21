@@ -393,11 +393,11 @@ public class Multilayer {
 
     public static void main(String[] args) {
         // ===== CONFIGURATION =====
-        String dataFile = "stockdata.txt";      // Change this to switch datasets
+        String dataFile = "predict.txt";      // Change this to switch datasets
         String weightFile = "weights.txt";      // Weight file to load/save
         boolean trainMode = false;              // Set to true for training, false for prediction
-        boolean trainFromScratch = true;       // true = fresh random weights, false = load existing weights first
-        double targetValue = 16.0;              // Target value for training
+        boolean trainFromScratch = false;       // true = fresh random weights, false = load existing weights first
+        double targetValue = 13.0;              // Target value for training
         // ========================
         
         try {
